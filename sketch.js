@@ -1,12 +1,12 @@
 function preload(){
   spaceship_up = loadImage('images/spaceship_left.png');
   asteroid = loadAnimation('images/asteroid1.png','images/asteroid2.png','images/asteroid3.png');
-  bg_asteroid = loadImage("images/bg_Asteroid.jpg");
+  bg_asteroid = loadImage("images/bg_asteroid.jpg");
   earthimg = loadImage("images/earth.png");
   bulletimg = loadImage("images/bullet.png");
   explosion1 = loadImage("images/explosion.png");
   start = loadImage("Start1.png");
-  title = loadImage("TITLE.PNG");
+  title = loadImage("TITLE.png");
   bg = loadImage("background.png");
 }
 
