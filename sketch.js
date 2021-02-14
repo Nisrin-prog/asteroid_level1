@@ -124,7 +124,7 @@ function draw(){
   }
 
   if(gameState === END){
-    back.velocityy = 0;
+    back.velocityY = 0;
     group.setVelocityXEach(0);
     group.setVelocityYEach(0);
     earth.setVelocity (0, 0);
