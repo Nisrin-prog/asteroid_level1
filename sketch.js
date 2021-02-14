@@ -98,9 +98,8 @@ function draw(){
         
         if(group.get(i)!= null){
           var x =group.get(i)
-          x.changeImage("explosion", explosion1);
           group.get(i).destroy();
-          console.log(x);
+
         }
       }
 
